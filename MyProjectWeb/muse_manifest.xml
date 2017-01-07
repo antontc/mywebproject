@@ -1,0 +1,15 @@
+<manifest alg="2" build="11" opt="false" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x" timestamp="1483630382603">
+  <folder name="css">
+    <file name="site_global.css" crc="422415861"/>
+    <file name="user.css" crc="26153584" ref="user"/>
+    <file name="index.css" crc="4248079925" ref="index"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="3880902115" ref="index:user"/>
+    <file name="museutils.js" crc="521960461" ref="index:user"/>
+    <file name="jquery.watch.js" crc="56779320" ref="index:user"/>
+    <file name="pie.js" crc="3827607177" ref="user"/>
+  </folder>
+  <file name="index.html" crc="296690516" mt="1483630081591" redirect="true"/>
+  <file name="user.html" crc="146349018" mt="1483629961557" redirect="true"/>
+</manifest>
