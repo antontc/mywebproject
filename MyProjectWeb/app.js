@@ -94,8 +94,8 @@ var AnswerQuestion = io.of('/answerquestion').on('connection', function(socket){
   });
 });
 
-var Question = ["answer true", "answer false dfghjjnbvcxsertyujbvdfgbvfdt answer false sdfghjkhgfdertyh", "answer true","answer false","answer true","answer false","answer true"];
-var Answer = [true, false, true, false, true, false, true, false, true];
+var Question = ["Вопрос, на который правильный ответ да", "Вопрос, на который правильный ответ нет", "Вопрос, на который правильный ответ да", "Вопрос, на который правильный ответ нет","Вопрос, на который правильный ответ да", "Вопрос, на который правильный ответ нет","Вопрос, на который правильный ответ да", "Вопрос, на который правильный ответ нет","Вопрос, на который правильный ответ да", "Вопрос, на который правильный ответ нет","Вопрос, на который правильный ответ да", "Вопрос, на который правильный ответ нет",];
+var Answer = [true, false, true, false, true, false, true, false, true, false, true, false, true, false];
 var Number;
 var AnswerQuestion;
 
