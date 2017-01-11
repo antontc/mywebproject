@@ -1,5 +1,5 @@
    
-var login = io.connect('http://13.79.158.25/login');
+var login = io.connect('http://40.69.209.77/login');
 
 document.forms.publish.onsubmit = function() {
   //document.cookie = "username=Вася";

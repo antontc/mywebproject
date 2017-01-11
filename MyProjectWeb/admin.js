@@ -1,5 +1,5 @@
 var NumberQuestion = 0;
-var NextQuestion = io.connect('http://13.79.158.25/nextquestion');
+var NextQuestion = io.connect('http://40.69.209.77/nextquestion');
 var NumberUserInSession = 0;
 var Username = [];
 var ScoreUsername = [0,0];
@@ -14,7 +14,7 @@ NextQuestion.on('SendNQ', function(Question){
     document.getElementById("u85-4").innerHTML=Question;
 });
 
-var login = io.connect('http://13.79.158.25/login');
+var login = io.connect('http://40.69.209.77/login');
 login.on('loginUser', function(User){
     if(NumberUserInSession == 0){
         document.getElementById("u78-4").innerHTML=User;
@@ -34,7 +34,7 @@ login.on('loginUser', function(User){
 
 });
 
-var AnswerQuestion = io.connect('http://13.79.158.25/answerquestion');
+var AnswerQuestion = io.connect('http://40.69.209.77/answerquestion');
 AnswerQuestion.on('Score', function(bool, name){
     if(bool == true){
         if(name == Username[0]){

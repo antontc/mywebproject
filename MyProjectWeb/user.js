@@ -10,14 +10,14 @@ function get_cookie ( cookie_name )
 var name = get_cookie("name");
 document.getElementById("u112-4").innerHTML="<p>" + name + "</p>";
 
-var NextQuestion = io.connect('http://13.79.158.25/nextquestion');
+var NextQuestion = io.connect('http://40.69.209.77/nextquestion');
 NextQuestion.on('SendNq', function(Question){
     //var x = get_cookie ( "name" );
     //alert(x);
     document.getElementById("u117-4").innerHTML="<p>" + "</p>";
     document.getElementById("u118-4").innerHTML="<p>" + Question + "</p>";
 });
-var AnswerQuestion = io.connect('http://13.79.158.25/answerquestion'); 
+var AnswerQuestion = io.connect('http://40.69.209.77/answerquestion'); 
 function ClickTrue(){
   AnswerQuestion.emit('AnswerQuestion', name, true);
   AnswerQuestion.on('True or false', function(YesNo){
